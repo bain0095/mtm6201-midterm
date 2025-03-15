@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillbridge</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- skip link provides keyboard accessibility, allowing users to bypass navigation -->
+    <a href="#main-content" class="skip-link" aria-label="Skip to main content">Skip to main content</a>
+
+    <!-- navigation section - main site navigation with logo and user account options -->
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="logo-nav">
+                <div class="logo">
+                    <a href="index.html" aria-label="Skillbridge Home"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <!-- navigation menu using aria menubar pattern for accessibility -->
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                    <li role="none"><a href="courses.html" role="menuitem">Courses</a></li>
+                    <li role="none"><a href="about.html" role="menuitem">About Us</a></li>
+                    <li role="none"><a href="prices.html" role="menuitem">Pricing</a></li>
+                    <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+            <div class="user-buttons">
+                <a href="signup.html" class="secondary-button" aria-label="Sign Up">Sign Up</a>
+                <a href="login.html" class="primary-button" aria-label="Login">Login</a>
+            </div>
+        </nav>
+    </header>
+    <!-- end of navigation section -->
+
+    <!-- main content section - contains all page sections and content -->
+    <main id="main-content" role="main">
+        <section aria-labelledby="hero-title">
+            <h2 id="hero-title" class="banner">Unlock Your Creative Potential</h2>
+            <h2 class="banner">with Online Design and Development Courses</h2>
+            <p class="banner">Learn from Industry Experts and Enhance Your Skills</p>
+
+            <div class="center-container">
+                <a href="courses.html" class="tri-button" aria-label="Explore Courses">Explore Courses</a>
+                <a href="pricing.html" class="quad-button" aria-label="View Pricing">View Pricing</a>
+            </div>
+        </section>
+        <!-- end of hero section -->
+
+        <!-- partner logos section - shows affiliated organizations -->
+        <div class="-main-card">
+            <div class="main-row">
+                <div class="main-column"><img src="https://placehold.co/68x34" alt=""></div>
+                <div class="main-column"><img src="https://placehold.co/68x34" alt=""></div>
+                <div class="main-column"><img src="https://placehold.co/68x34" alt=""></div>
+                <div class="main-column"><img src="https://placehold.co/68x34" alt=""></div>
+                <div class="main-column"><img src="https://placehold.co/68x34" alt=""></div>
+                <div class="main-column"><img src="https://placehold.co/68x34" alt=""></div>
+                <div class="main-column"><img src="https://placehold.co/68x34" alt=""></div>
+            </div>
+        </div>
+
+        <!-- banner image - visual representation of online learning -->
+        <div class="banner-image">
+            <img src="https://placehold.co/799x500" alt="">
+        </div>
+
+        <!-- benefits section - showcases platform advantages -->
+        <section class="benefits-section" aria-labelledby="benefits-title">
+            <div class="banner-container">
+                <h2 id="benefits-title">Benefits</h2>
+                <div class="banner-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero quasi, dolore obcaecati at
+                        quibusdam! Consequuntur facere porro, similique dolorem voluptatem ipsum molestiae enim animi aut id
+                        a optio ducimus?</p>
+                    <button class="banner-btn" aria-label="View all benefits">View All</button>
+                </div>
+            </div>
+
+            <!-- benefits card grid - features 6 key platform advantages -->
+            <div class="b-card-grid">
+                <div class="b-card">
+                    <h3 class="b-big-header">01</h3>
+                    <h4 class="b-normal-header">Flexible Learning Schedule</h4>
+                    <p class="b-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, nesciunt accusantium alias recusandae reiciendis rem totam deleniti inventore minima suscipit quisquam quis asperiores voluptatibus tempora, eligendi vitae delectus ipsum tempore?</p>
+                    <button class="b-square-button" aria-label="Learn more about Flexible Learning Schedule">+</button>
+                </div>
+
+                <div class="b-card">
+                    <h3 class="b-big-header">02</h3>
+                    <h4 class="b-normal-header">Expert Instruction</h4>
+                    <p class="b-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nemo excepturi quam aliquid iure, magni, ex, exercitationem eligendi eaque expedita error. Vel exercitationem, minus laboriosam facere animi omnis voluptas voluptatem?</p>
+                    <button class="b-square-button" aria-label="Learn more about Expert Instruction">+</button>
+                </div>
+
+                <div class="b-card">
+                    <h3 class="b-big-header">03</h3>
+                    <h4 class="b-normal-header">Diverse Course Offerings</h4>
+                    <p class="b-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam debitis itaque alias! Totam, odio exercitationem in necessitatibus quis repudiandae adipisci fuga eaque, error quam perspiciatis iste doloremque magni quae.</p>
+                    <button class="b-square-button" aria-label="Learn more about Diverse Course Offerings">+</button>
+                </div>
+
+                <div class="b-card">
+                    <h3 class="b-big-header">04</h3>
+                    <h4 class="b-normal-header">Updated Curriculum</h4>
+                    <p class="b-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita consequatur tenetur vero? Eos earum pariatur laudantium suscipit iste illo, optio consectetur commodi! Neque aut facilis eveniet natus officia numquam. Neque.</p>
+                    <button class="b-square-button" aria-label="Learn more about Updated Curriculum">Click</button>
+                </div>
+
+                <div class="b-card">
+                    <h3 class="b-big-header">05</h3>
+                    <h4 class="b-normal-header">Practical Projects and Assignments</h4>
+                    <p class="b-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, corporis totam! Velit repudiandae repellendus, ipsum sequi explicabo nihil assumenda neque harum vitae id voluptates sed alias, obcaecati quia cum expedita.</p>
+                    <button class="b-square-button" aria-label="Learn more about Practical Projects and Assignments">+</button>
+                </div>
+
+                <div class="b-card">
+                    <h3 class="b-big-header">06</h3>
+                    <h4 class="b-normal-header">Interactive Learning Environment</h4>
+                    <p class="b-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, nihil? Corporis nemo ipsum ea iste provident, aperiam debitis quam nisi, reprehenderit facere, voluptatem eveniet repellat illum accusamus expedita eaque animi.</p>
+                    <button class="b-square-button" aria-label="Learn more about Interactive Learning Environment">+</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- courses section - displays available educational offerings -->
+        <section class="courses-section" aria-labelledby="courses-title">
+            <div class="banner-container">
+                <h2 id="courses-title">Our Courses</h2>
+                <div class="banner-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero quasi, dolore obcaecati at
+                        quibusdam!
+                        Consequuntur facere porro, similique dolorem voluptatem ipsum molestiae enim animi aut id a optio
+                        ducimus?
+                    </p>
+                    <button class="banner-btn" aria-label="View all courses">View All</button>
+                </div>
+            </div>
+
+            <!-- course card layout -->
+            <div class="courses-container">
+                <div class="courses-row">
+                    <div class="courses-card">
+                        <img src="https://placehold.co/683x380" alt="">
+                        <div class="courses-card-body">
+                            <h3 class="courses-card-title">Web Design Fundamentals</h3>
+                            <p class="courses-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magni, qui sequi natus expedita excepturi ipsum nisi omnis voluptatibus voluptates dolores neque deserunt. Rerum nobis a doloribus modi repellat odit.</p>
+                            <button class="courses-card-button" aria-label="Enroll in Web Design Fundamentals course">Get it Now</button>
+                        </div>
+                    </div>
+                    <div class="courses-card">
+                        <img src="https://placehold.co/683x380" alt="">
+                        <div class="courses-card-body">
+                            <h3 class="courses-card-title">UI/UX Design</h3>
+                            <p class="courses-card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, dolorum velit ab voluptas recusandae ullam saepe ut! Quis laborum voluptatem, non ipsa in omnis molestiae commodi sunt aperiam deserunt doloribus.</p>
+                            <button class="courses-card-button" aria-label="Enroll in UI/UX Design course">Get it Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-row">
+                    <div class="courses-card">
+                        <img src="https://placehold.co/683x380" alt="">
+                        <div class="courses-card-body">
+                            <h3 class="courses-card-title">Mobile App Development</h3>
+                            <p class="courses-card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita corrupti quaerat, totam reiciendis eligendi explicabo voluptatum illo quas nisi libero, amet eius, ea cupiditate ratione error? Corporis, dolorum assumenda. Delectus!</p>
+                            <button class="courses-card-button" aria-label="Enroll in Mobile App Development course">Get it Now</button>
+                        </div>
+                    </div>
+                    <div class="courses-card">
+                        <img src="https://placehold.co/683x380" alt="">
+                        <div class="courses-card-body">
+                            <h3 class="courses-card-title">Graphic Design for Beginners</h3>
+                            <p class="courses-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sequi sunt, pariatur molestiae nisi explicabo consequatur delectus labore animi omnis, unde aspernatur harum. Voluptatum quisquam aut, dignissimos est autem recusandae?</p>
+                            <button class="courses-card-button" aria-label="Enroll in Graphic Design for Beginners course">Get it Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-row">
+                    <div class="courses-card">
+                        <img src="https://placehold.co/683x380" alt="">
+                        <div class="courses-card-body">
+                            <h3 class="courses-card-title">Front-End Web Development</h3>
+                            <p class="courses-card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo illo architecto nam ex fugiat sint, fugit dicta ad. Iste deserunt magni optio. Corporis corrupti distinctio incidunt facere accusantium eligendi eum!</p>
+                            <button class="courses-card-button" aria-label="Enroll in Front-End Web Development course">Get it Now</button>
+                        </div>
+                    </div>
+                    <div class="courses-card">
+                        <img src="https://placehold.co/683x380" alt="">
+                        <div class="courses-card-body">
+                            <h3 class="courses-card-title">Advanced Javascript</h3>
+                            <p class="courses-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vitae recusandae qui voluptatibus earum distinctio velit illo tempora, perspiciatis nam animi quod molestiae quaerat delectus ea vero debitis, quasi nulla!</p>
+                            <button class="courses-card-button" aria-label="Enroll in Advanced Javascript course">Get it Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials section -->
+        <section class="testimonials-section" aria-labelledby="testimonials-title">
+            <div class="banner-container">
+                <h2 id="testimonials-title">Our Testimonials</h2>
+                <div class="banner-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero quasi, dolore obcaecati at
+                        quibusdam!
+                        Consequuntur facere porro, similique dolorem voluptatem ipsum molestiae enim animi aut id a optio
+                        ducimus?
+                    </p>
+                    <button class="banner-btn" aria-label="View all testimonials">View All</button>
+                </div>
+            </div>
+
+            <!-- testimonial cards -->
+            <div class="testi-container">
+                <div class="testi-row">
+                    <div class="testi-card">
+                        <div class="testi-card-body">
+                            <p class="testi-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda ullam beatae. Minus expedita illo corrupti obcaecati! Qui, rem! Et, quo delectus alias earum asperiores vel iusto iure exercitationem quia.</p>
+                            <div class="testi-card-footer">
+                                <img src="https://placehold.co/60x60" alt="">
+                                <div class="testi-card-info">
+                                    <h3 class="testi-card-name">Sarah L</h3>
+                                    <button class="testi-card-button" aria-label="Read Sarah L's full testimonial">Read Full Story</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-card">
+                        <div class="testi-card-body">
+                            <p class="testi-card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo consequatur asperiores praesentium laboriosam quo, beatae molestias aliquid tempore optio dicta fugiat nemo porro ullam unde eligendi nam quidem! Harum, molestias.</p>
+                            <div class="testi-card-footer">
+                                <img src="https://placehold.co/60x60" alt="">
+                                <div class="testi-card-info">
+                                    <h3 class="testi-card-name">Jason M</h3>
+                                    <button class="testi-card-button" aria-label="Read Jason M's full testimonial">Read Full Story</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-row">
+                    <div class="testi-card">
+                        <div class="testi-card-body">
+                            <p class="testi-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore error quasi, non quae odit doloribus perspiciatis modi, maxime facilis commodi perferendis laborum rerum at porro voluptatum eaque magnam voluptatibus eos!</p>
+                            <div class="testi-card-footer">
+                                <img src="https://placehold.co/60x60" alt="">
+                                <div class="testi-card-info">
+                                    <h3 class="testi-card-name">Emily R</h3>
+                                    <button class="testi-card-button" aria-label="Read Emily R's full testimonial">Read Full Story</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-card">
+                        <div class="testi-card-body">
+                            <p class="testi-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem odio doloribus. Accusantium deleniti minus numquam perspiciatis, molestias expedita et quod laboriosam aperiam consequatur sed veritatis architecto assumenda dolores. Molestias.</p>
+                            <div class="testi-card-footer">
+                                <img src="https://placehold.co/60x60" alt="">
+                                <div class="testi-card-info">
+                                    <h3 class="testi-card-name">Michael K</h3>
+                                    <button class="testi-card-button" aria-label="Read Michael K's full testimonial">Read Full Story</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- pricing section - subscription options and plans -->
+        <section class="pricing-section" aria-labelledby="pricing-title">
+            <div class="banner-container">
+                <h2 id="pricing-title">Our Pricing</h2>
+                <div class="banner-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero quasi, dolore obcaecati at
+                        quibusdam!
+                        Consequuntur facere porro, similique dolorem voluptatem ipsum molestiae enim animi aut id a optio
+                        ducimus?
+                    </p>
+                    <button class="banner-btn" aria-pressed="true" aria-label="Show monthly pricing">Monthly</button>
+                    <button class="banner-btn2" aria-pressed="false" aria-label="Show yearly pricing">Yearly</button>
+                </div>
+            </div>
+            
+            <!-- pricing cards -->
+            <div class="pricing-container">
+                <div class="pricing-big-box">
+                    <div class="pricing-card">
+                        <div class="pricing-inner-card">
+                            <div class="pricing-inner-card-body">
+                                <h3 class="pricing-medium-heading">Free Plan</h3>
+                                <p class="pricing-large-heading">$0<span class="pricing-small-text">/month</span></p>
+                                <h4 class="pricing-small-heading">Available Features</h4>
+                                <ul class="pricing-list">
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                                <button class="pricing-card-button" aria-label="Get started with Free Plan">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-inner-card">
+                            <div class="pricing-inner-card-body">
+                                <h3 class="pricing-medium-heading">Pro Plan</h3>
+                                <p class="pricing-large-heading">$79<span class="pricing-small-text">/month</span></p>
+                                <h4 class="pricing-small-heading">Available Features</h4>
+                                <ul class="pricing-list">
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                                <button class="pricing-card-button" aria-label="Get started with Pro Plan">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq section -->
+        <section class="faq-section" aria-labelledby="faq-title">
+            <div class="faq-container">
+                <div class="faq-card">
+                    <div class="faq-left-side">
+                        <h2 id="faq-title" class="faq-large-heading">Frequently Asked Questions</h2>
+                        <p class="faq-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, incidunt molestiae. Omnis itaque nemo rerum possimus veritatis laborum asperiores. Quae ad, id ipsum fugiat nobis aperiam hic quod eaque accusamus.</p>
+                        <button class="faq-small-button" aria-label="See all frequently asked questions">See All FAQ's</button>
+                    </div>
+                    <div class="faq-right-side">
+                        <div class="faq-accordion" role="region" aria-labelledby="faq-title">
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-1" class="faq-accordion-checkbox">
+                                <label for="accordion-item-1" class="faq-accordion-header" aria-controls="content-1" aria-expanded="false">
+                                    <span>Can I enroll in multiple courses at once</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-1" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed fuga, ipsa quibusdam distinctio modi non exercitationem illo aliquam corporis tenetur temporibus corrupti officia porro, maiores eos perferendis rerum doloremque!</p>
+                                    <button class="faq-accordion-button" aria-label="Learn about enrollment process for different courses">
+                                        Enrollment Process for Different Courses
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-2" class="faq-accordion-checkbox">
+                                <label for="accordion-item-2" class="faq-accordion-header" aria-controls="content-2" aria-expanded="false">
+                                    <span>What kind of support can I expect from instructors?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-2" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quae dolor necessitatibus. Laudantium quos nostrum consequatur nihil perferendis, eligendi, rem dolorum molestias repellendus impedit esse id quas quae, qui incidunt!</p>
+                                    <button class="faq-accordion-button" aria-label="Learn more about instructor support">
+                                        Learn about instructor support
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-3" class="faq-accordion-checkbox">
+                                <label for="accordion-item-3" class="faq-accordion-header" aria-controls="content-3" aria-expanded="false">
+                                    <span>Are the courses self-paced or do they have specific start and end dates?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-3" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate pariatur modi, aliquam hic, ullam harum consequuntur provident placeat repellendus dignissimos accusamus doloribus cum eius debitis totam obcaecati quaerat. Nam, dignissimos!</p>
+                                    <button class="faq-accordion-button" aria-label="Learn more about course scheduling">
+                                        Course scheduling details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-4" class="faq-accordion-checkbox">
+                                <label for="accordion-item-4" class="faq-accordion-header" aria-controls="content-4" aria-expanded="false">
+                                    <span>Are there any prerequisites for the courses?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-4" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eveniet iste harum, expedita nisi illum, recusandae dolorem eius pariatur quae non quasi commodi nam nulla fugit, iure dolorum numquam enim?</p>
+                                    <button class="faq-accordion-button" aria-label="View course prerequisites">
+                                        View prerequisites
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-5" class="faq-accordion-checkbox">
+                                <label for="accordion-item-5" class="faq-accordion-header" aria-controls="content-5" aria-expanded="false">
+                                    <span>Can I download the course materials for offline access?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-5" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis et deleniti aliquid minima quidem hic repellat perferendis unde libero officiis magnam, asperiores, reiciendis distinctio beatae autem corporis perspiciatis sapiente.</p>
+                                    <button class="faq-accordion-button" aria-label="Learn about downloadable content">
+                                        Downloadable content information
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- end of main content -->
+
+<!-- footer - site information, navigation, and contact details -->
+<footer class="foot" role="contentinfo">
+    <div class="foot-left">
+        <img src="./images/logo.png" alt="" class="foot-logo">
+        <a href="mailto:example@mail.com" class="foot-link" aria-label="Email us">example@mail.com</a>
+        <p class="foot-text">+123 456 7890</p>
+        <a href="https://maps.google.com" class="foot-link" aria-label="Find our location on Google Maps">Find us on the map</a>
+    </div>
+    <div class="foot-space"></div>
+    <div class="foot-right">
+        <div class="foot-section">
+            <strong class="foot-heading">Home</strong>
+            <p class="foot-text">About Us</p>
+            <p class="foot-text">Services</p>
+            <p class="foot-text">Contact</p>
+            <p class="foot-text">Blog</p>
+        </div>
+        <div class="foot-section">
+            <strong class="foot-heading">Other</strong>
+            <p class="foot-text">Privacy Policy</p>
+            <p class="foot-text">Terms of Service</p>
+            <p class="foot-text">FAQ</p>
+        </div>
+        <div class="foot-section">
+            <strong class="foot-heading">Social</strong>
+            <div class="foot-buttons">
+                <button class="foot-button" aria-label="Visit our Facebook page">Facebook</button>
+                <button class="foot-button" aria-label="Visit our Twitter page">Twitter</button>
+                <button class="foot-button" aria-label="Visit our Instagram page">Instagram</button>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- copyright information -->
+<div class="foot-copyright" role="contentinfo">
+    &copy; 2025 Your Company. All rights reserved.
+</div>
+</body>
+
+</html>

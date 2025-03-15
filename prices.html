@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - SkillBridge</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- skip link provides keyboard accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- navigation section -->
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="logo-nav">
+                <div class="logo">
+                    <a href="index.html" aria-label="Skillbridge Home"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                    <li role="none"><a href="courses.html" role="menuitem">Courses</a></li>
+                    <li role="none"><a href="about.html" role="menuitem">About Us</a></li>
+                    <li role="none"><a href="prices.html" role="menuitem" aria-current="page">Pricing</a></li>
+                    <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+            <div class="user-buttons">
+                <a href="signup.html" class="secondary-button" aria-label="Sign Up">Sign Up</a>
+                <a href="login.html" class="primary-button" aria-label="Login">Login</a>
+            </div>
+        </nav>
+    </header>
+    <!-- end of nav -->
+
+    <!-- main content area -->
+    <main id="main-content" role="main">
+
+        <div class="c-header">
+            <div class="c-header-container">
+                <h1 id="pricing-title" class="c-header-large-heading">Our Pricing</h1>
+                <p class="c-header-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, in consequatur ea vel, tempora nam, quos odit modi rerum recusandae voluptatum sit cum optio mollitia expedita asperiores quam soluta aliquam?</p>
+            </div>
+        </div>
+
+        <!-- pricing section-->
+        <section class="pricing-section" aria-labelledby="pricing-title">
+            
+            <div class="banner-container">
+                <div class="banner-content2">
+                    <button class="banner-btn3" aria-pressed="true" aria-label="Show monthly pricing">Monthly</button>
+                    <button class="banner-btn3" aria-pressed="false" aria-label="Show yearly pricing">Yearly</button>
+                </div>
+            </div>
+            
+            <!-- pricing plans container -->
+            <div class="pricing-container">
+                <div class="pricing-big-box">
+                    <!-- free plan pricing card -->
+                    <div class="pricing-card">
+                        <div class="pricing-inner-card">
+                            <div class="pricing-inner-card-body">
+                                <h3 class="pricing-medium-heading">Free Plan</h3>
+                                <p class="pricing-large-heading">$0<span class="pricing-small-text">/month</span></p>
+                                <h4 class="pricing-small-heading">Available Features</h4>
+                                <ul class="pricing-list">
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                                <button class="pricing-card-button" aria-label="Get started with Free Plan">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pro plan pricing card -->
+                    <div class="pricing-card">
+                        <div class="pricing-inner-card">
+                            <div class="pricing-inner-card-body">
+                                <h3 class="pricing-medium-heading">Pro Plan</h3>
+                                <p class="pricing-large-heading">$79<span class="pricing-small-text">/month</span></p>
+                                <h4 class="pricing-small-heading">Available Features</h4>
+                                <ul class="pricing-list">
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                                <button class="pricing-card-button" aria-label="Get started with Pro Plan">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq section -->
+        <section class="faq-section" aria-labelledby="faq-title">
+            <div class="faq-container">
+                <div class="faq-card">
+                    <!-- faq introduction -->
+                    <div class="faq-left-side">
+                        <h2 id="faq-title" class="faq-large-heading">Frequently Asked Questions</h2>
+                        <p class="faq-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, incidunt molestiae. Omnis itaque nemo rerum possimus veritatis laborum asperiores. Quae ad, id ipsum fugiat nobis aperiam hic quod eaque accusamus.</p>
+                        <button class="faq-small-button" aria-label="See all frequently asked questions">See All FAQ's</button>
+                    </div>
+                    <!-- interactive accordion questions and answers -->
+                    <div class="faq-right-side">
+                        <div class="faq-accordion" role="region" aria-labelledby="faq-title">
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-1" class="faq-accordion-checkbox">
+                                <label for="accordion-item-1" class="faq-accordion-header" aria-controls="content-1" aria-expanded="false">
+                                    <span>Can I enroll in multiple courses at once</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-1" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed fuga, ipsa quibusdam distinctio modi non exercitationem illo aliquam corporis tenetur temporibus corrupti officia porro, maiores eos perferendis rerum doloremque!</p>
+                                    <button class="faq-accordion-button" aria-label="Learn about enrollment process for different courses">
+                                        Enrollment Process for Different Courses
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-2" class="faq-accordion-checkbox">
+                                <label for="accordion-item-2" class="faq-accordion-header" aria-controls="content-2" aria-expanded="false">
+                                    <span>What kind of support can I expect from instructors?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-2" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quae dolor necessitatibus. Laudantium quos nostrum consequatur nihil perferendis, eligendi, rem dolorum molestias repellendus impedit esse id quas quae, qui incidunt!</p>
+                                    <button class="faq-accordion-button" aria-label="Learn more about instructor support">
+                                        Learn about instructor support
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-3" class="faq-accordion-checkbox">
+                                <label for="accordion-item-3" class="faq-accordion-header" aria-controls="content-3" aria-expanded="false">
+                                    <span>Are the courses self-paced or do they have specific start and end dates?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-3" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate pariatur modi, aliquam hic, ullam harum consequuntur provident placeat repellendus dignissimos accusamus doloribus cum eius debitis totam obcaecati quaerat. Nam, dignissimos!</p>
+                                    <button class="faq-accordion-button" aria-label="Learn more about course scheduling">
+                                        Course scheduling details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-4" class="faq-accordion-checkbox">
+                                <label for="accordion-item-4" class="faq-accordion-header" aria-controls="content-4" aria-expanded="false">
+                                    <span>Are there any prerequisites for the courses?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-4" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eveniet iste harum, expedita nisi illum, recusandae dolorem eius pariatur quae non quasi commodi nam nulla fugit, iure dolorum numquam enim?</p>
+                                    <button class="faq-accordion-button" aria-label="View course prerequisites">
+                                        View prerequisites
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <input type="checkbox" id="accordion-item-5" class="faq-accordion-checkbox">
+                                <label for="accordion-item-5" class="faq-accordion-header" aria-controls="content-5" aria-expanded="false">
+                                    <span>Can I download the course materials for offline access?</span>
+                                    <span class="faq-accordion-toggle" aria-hidden="true">+</span>
+                                </label>
+                                <div id="content-5" class="faq-accordion-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis et deleniti aliquid minima quidem hic repellat perferendis unde libero officiis magnam, asperiores, reiciendis distinctio beatae autem corporis perspiciatis sapiente.</p>
+                                    <button class="faq-accordion-button" aria-label="Learn about downloadable content">
+                                        Downloadable content information
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+    </main>
+    <!-- end of main content -->
+
+<!-- footer section with contact information and links -->
+<footer class="foot" role="contentinfo">
+    <div class="foot-left">
+        <img src="./images/logo.png" alt="" class="foot-logo">
+        <a href="mailto:example@mail.com" class="foot-link" aria-label="Email us">example@mail.com</a>
+        <p class="foot-text">+123 456 7890</p>
+        <a href="https://maps.google.com" class="foot-link" aria-label="Find our location on Google Maps">Find us on the map</a>
+    </div>
+    <div class="foot-space"></div>
+    <div class="foot-right">
+        <div class="foot-section">
+            <strong class="foot-heading">Home</strong>
+            <p class="foot-text">About Us</p>
+            <p class="foot-text">Services</p>
+            <p class="foot-text">Contact</p>
+            <p class="foot-text">Blog</p>
+        </div>
+        <div class="foot-section">
+            <strong class="foot-heading">Other</strong>
+            <p class="foot-text">Privacy Policy</p>
+            <p class="foot-text">Terms of Service</p>
+            <p class="foot-text">FAQ</p>
+        </div>
+        <div class="foot-section">
+            <strong class="foot-heading">Social</strong>
+            <div class="foot-buttons">
+                <button class="foot-button" aria-label="Visit our Facebook page">Facebook</button>
+                <button class="foot-button" aria-label="Visit our Twitter page">Twitter</button>
+                <button class="foot-button" aria-label="Visit our Instagram page">Instagram</button>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- copyright information -->
+<div class="foot-copyright" role="contentinfo">
+    &copy; 2025 Your Company. All rights reserved.
+</div>
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBridge</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- skip link for keyboard users to bypass navigation menu -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- navigation section -->
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="logo-nav">
+                <div class="logo">
+                    <a href="index.html" aria-label="Skillbridge Home"><img src="./images/logo.png" alt=""></a>
+                </div>
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+                    <li role="none"><a href="courses.html" role="menuitem" aria-current="page">Courses</a></li>
+                    <li role="none"><a href="about.html" role="menuitem">About Us</a></li>
+                    <li role="none"><a href="prices.html" role="menuitem">Pricing</a></li>
+                    <li role="none"><a href="contact.html" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+            <div class="user-buttons">
+                <a href="signup.html" class="secondary-button" aria-label="Sign Up">Sign Up</a>
+                <a href="login.html" class="primary-button" aria-label="Login">Login</a>
+            </div>
+        </nav>
+    </header>
+    <!-- end of nav -->
+
+    <!-- main content area - contains all course listings -->
+    <main id="main-content" role="main">
+        <!-- header section with introduction text -->
+        <div class="c-header">
+            <div class="c-header-container">
+                <h1 class="c-header-large-heading">Online Courses on Design and Development</h1>
+                <p class="c-header-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate ab doloribus aspernatur aperiam, obcaecati iste nostrum dolores optio officiis numquam explicabo molestiae facilis impedit, quas deleniti quos maxime facere nemo!</p>
+            </div>
+        </div>
+        <!-- course cards container - wraps all course sections -->
+        <div class="crse-cards-wrapper">
+            <div class="crse-cards-container">
+                <!-- web development fundamentals course section -->
+                <section class="crse-card" aria-labelledby="web-dev-title">
+                    <h2 id="web-dev-title" class="crse-card-header">Web Development Fundamentals</h2>
+                    <p class="crse-card-paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur rem velit reprehenderit ea dolorem? Repellat labore rem odio nisi, ut aut repellendus, quidem laudantium perspiciatis architecto aspernatur est aliquam quos.
+                        <button class="crse-card-button" aria-label="View Web Development Fundamentals course">View Course</button>
+                    </p>
+                    <!-- course preview images -->
+                    <div class="crse-card-images">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                    </div>
+                    <!-- curriculum section -->
+                    <h3 class="crse-card-subheader">Curriculum</h3>
+                    <ul class="crse-card-list">
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">1</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio hic quo excepturi ratione quibusdam veniam obcaecati quod at beatae suscipit, molestias culpa a reiciendis inventore ab voluptatum alias ea iure.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">2</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima facere error laudantium velit aliquam quaerat eligendi quisquam consequuntur modi, non vitae odio odit fugiat omnis! Ullam dolores mollitia odio.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">3</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum pariatur recusandae illum? Rem a ab illo iste eaque laudantium aspernatur omnis? Veniam autem odio ea quidem, animi iusto a.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">4</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos consequatur fuga fugiat mollitia explicabo dignissimos aspernatur ipsa velit sit ipsum illum eaque ullam, distinctio dicta modi repudiandae blanditiis! Quibusdam! </p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">5</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam similique laudantium libero iusto illum, voluptatibus vitae, expedita rerum nulla aperiam ex eveniet, officia provident est facere non quis. Odit?</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">6</h4>
+                            <p class="crse-card-list-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, ab iusto. Quidem vel quia facilis cum earum optio impedit aut, illo similique, aperiam veritatis nostrum est molestias, dolor ratione explicabo?</p>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- ui/ux design course section -->
+                <section class="crse-card" aria-labelledby="uiux-title">
+                    <h2 id="uiux-title" class="crse-card-header">UI/UX Design</h2>
+                    <p class="crse-card-paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur rem velit reprehenderit ea dolorem? Repellat labore rem odio nisi, ut aut repellendus, quidem laudantium perspiciatis architecto aspernatur est aliquam quos.
+                        <button class="crse-card-button" aria-label="View UI/UX Design course">View Course</button>
+                    </p>
+                    <!-- course preview images -->
+                    <div class="crse-card-images">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                    </div>
+                    <!-- curriculum section -->
+                    <h3 class="crse-card-subheader">Curriculum</h3>
+                    <ul class="crse-card-list">
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">1</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio hic quo excepturi ratione quibusdam veniam obcaecati quod at beatae suscipit, molestias culpa a reiciendis inventore ab voluptatum alias ea iure.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">2</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima facere error laudantium velit aliquam quaerat eligendi quisquam consequuntur modi, non vitae odio odit fugiat omnis! Ullam dolores mollitia odio.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">3</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum pariatur recusandae illum? Rem a ab illo iste eaque laudantium aspernatur omnis? Veniam autem odio ea quidem, animi iusto a.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">4</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos consequatur fuga fugiat mollitia explicabo dignissimos aspernatur ipsa velit sit ipsum illum eaque ullam, distinctio dicta modi repudiandae blanditiis! Quibusdam! </p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">5</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam similique laudantium libero iusto illum, voluptatibus vitae, expedita rerum nulla aperiam ex eveniet, officia provident est facere non quis. Odit?</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">6</h4>
+                            <p class="crse-card-list-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, ab iusto. Quidem vel quia facilis cum earum optio impedit aut, illo similique, aperiam veritatis nostrum est molestias, dolor ratione explicabo?</p>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- mobile app development course section -->
+                <section class="crse-card" aria-labelledby="mobile-app-title">
+                    <h2 id="mobile-app-title" class="crse-card-header">Mobile App Development</h2>
+                    <p class="crse-card-paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur rem velit reprehenderit ea dolorem? Repellat labore rem odio nisi, ut aut repellendus, quidem laudantium perspiciatis architecto aspernatur est aliquam quos.
+                        <button class="crse-card-button" aria-label="View Mobile App Development course">View Course</button>
+                    </p>
+                    <!-- course preview images -->
+                    <div class="crse-card-images">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                    </div>
+                    <!-- curriculum section -->
+                    <h3 class="crse-card-subheader">Curriculum</h3>
+                    <ul class="crse-card-list">
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">1</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio hic quo excepturi ratione quibusdam veniam obcaecati quod at beatae suscipit, molestias culpa a reiciendis inventore ab voluptatum alias ea iure.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">2</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima facere error laudantium velit aliquam quaerat eligendi quisquam consequuntur modi, non vitae odio odit fugiat omnis! Ullam dolores mollitia odio.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">3</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum pariatur recusandae illum? Rem a ab illo iste eaque laudantium aspernatur omnis? Veniam autem odio ea quidem, animi iusto a.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">4</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos consequatur fuga fugiat mollitia explicabo dignissimos aspernatur ipsa velit sit ipsum illum eaque ullam, distinctio dicta modi repudiandae blanditiis! Quibusdam! </p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">5</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam similique laudantium libero iusto illum, voluptatibus vitae, expedita rerum nulla aperiam ex eveniet, officia provident est facere non quis. Odit?</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">6</h4>
+                            <p class="crse-card-list-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, ab iusto. Quidem vel quia facilis cum earum optio impedit aut, illo similique, aperiam veritatis nostrum est molestias, dolor ratione explicabo?</p>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- graphic design course section -->
+                <section class="crse-card" aria-labelledby="graphic-design-title">
+                    <h2 id="graphic-design-title" class="crse-card-header">Graphic Design for Beginners</h2>
+                    <p class="crse-card-paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur rem velit reprehenderit ea dolorem? Repellat labore rem odio nisi, ut aut repellendus, quidem laudantium perspiciatis architecto aspernatur est aliquam quos.
+                        <button class="crse-card-button" aria-label="View Graphic Design for Beginners course">View Course</button>
+                    </p>
+                    <!-- course preview images -->
+                    <div class="crse-card-images">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                    </div>
+                    <!-- curriculum sections -->
+                    <h3 class="crse-card-subheader">Curriculum</h3>
+                    <ul class="crse-card-list">
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">1</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio hic quo excepturi ratione quibusdam veniam obcaecati quod at beatae suscipit, molestias culpa a reiciendis inventore ab voluptatum alias ea iure.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">2</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima facere error laudantium velit aliquam quaerat eligendi quisquam consequuntur modi, non vitae odio odit fugiat omnis! Ullam dolores mollitia odio.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">3</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum pariatur recusandae illum? Rem a ab illo iste eaque laudantium aspernatur omnis? Veniam autem odio ea quidem, animi iusto a.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">4</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos consequatur fuga fugiat mollitia explicabo dignissimos aspernatur ipsa velit sit ipsum illum eaque ullam, distinctio dicta modi repudiandae blanditiis! Quibusdam! </p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">5</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam similique laudantium libero iusto illum, voluptatibus vitae, expedita rerum nulla aperiam ex eveniet, officia provident est facere non quis. Odit?</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">6</h4>
+                            <p class="crse-card-list-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, ab iusto. Quidem vel quia facilis cum earum optio impedit aut, illo similique, aperiam veritatis nostrum est molestias, dolor ratione explicabo?</p>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- front end web development course section -->
+                <section class="crse-card" aria-labelledby="frontend-title">
+                    <h2 id="frontend-title" class="crse-card-header">Front End Web Development</h2>
+                    <p class="crse-card-paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur rem velit reprehenderit ea dolorem? Repellat labore rem odio nisi, ut aut repellendus, quidem laudantium perspiciatis architecto aspernatur est aliquam quos.
+                        <button class="crse-card-button" aria-label="View Front End Web Development course">View Course</button>
+                    </p>
+                    <!-- course preview images -->
+                    <div class="crse-card-images">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                    </div>
+                    <!-- curriculum section -->
+                    <h3 class="crse-card-subheader">Curriculum</h3>
+                    <ul class="crse-card-list">
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">1</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio hic quo excepturi ratione quibusdam veniam obcaecati quod at beatae suscipit, molestias culpa a reiciendis inventore ab voluptatum alias ea iure.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">2</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima facere error laudantium velit aliquam quaerat eligendi quisquam consequuntur modi, non vitae odio odit fugiat omnis! Ullam dolores mollitia odio.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">3</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum pariatur recusandae illum? Rem a ab illo iste eaque laudantium aspernatur omnis? Veniam autem odio ea quidem, animi iusto a.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">4</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos consequatur fuga fugiat mollitia explicabo dignissimos aspernatur ipsa velit sit ipsum illum eaque ullam, distinctio dicta modi repudiandae blanditiis! Quibusdam! </p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">5</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam similique laudantium libero iusto illum, voluptatibus vitae, expedita rerum nulla aperiam ex eveniet, officia provident est facere non quis. Odit?</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">6</h4>
+                            <p class="crse-card-list-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, ab iusto. Quidem vel quia facilis cum earum optio impedit aut, illo similique, aperiam veritatis nostrum est molestias, dolor ratione explicabo?</p>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- advanced web development course section -->
+                <section class="crse-card" aria-labelledby="adv-webdev-title">
+                    <h2 id="adv-webdev-title" class="crse-card-header">Advanced Web Development</h2>
+                    <p class="crse-card-paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur rem velit reprehenderit ea dolorem? Repellat labore rem odio nisi, ut aut repellendus, quidem laudantium perspiciatis architecto aspernatur est aliquam quos.
+                        <button class="crse-card-button" aria-label="View Advanced Web Development course">View Course</button>
+                    </p>
+                    <!-- course preview images -->
+                    <div class="crse-card-images">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                        <img src="https://placehold.co/683x380" alt="" class="crse-card-image">
+                    </div>
+                    <!-- curriculum section -->
+                    <h3 class="crse-card-subheader">Curriculum</h3>
+                    <ul class="crse-card-list">
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">1</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio hic quo excepturi ratione quibusdam veniam obcaecati quod at beatae suscipit, molestias culpa a reiciendis inventore ab voluptatum alias ea iure.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">2</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima facere error laudantium velit aliquam quaerat eligendi quisquam consequuntur modi, non vitae odio odit fugiat omnis! Ullam dolores mollitia odio.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">3</h4>
+                            <p class="crse-card-list-paragraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum pariatur recusandae illum? Rem a ab illo iste eaque laudantium aspernatur omnis? Veniam autem odio ea quidem, animi iusto a.</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">4</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos consequatur fuga fugiat mollitia explicabo dignissimos aspernatur ipsa velit sit ipsum illum eaque ullam, distinctio dicta modi repudiandae blanditiis! Quibusdam! </p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">5</h4>
+                            <p class="crse-card-list-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam similique laudantium libero iusto illum, voluptatibus vitae, expedita rerum nulla aperiam ex eveniet, officia provident est facere non quis. Odit?</p>
+                        </li>
+                        <li class="crse-card-list-item">
+                            <h4 class="crse-card-list-header">6</h4>
+                            <p class="crse-card-list-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, ab iusto. Quidem vel quia facilis cum earum optio impedit aut, illo similique, aperiam veritatis nostrum est molestias, dolor ratione explicabo?</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+<!-- footer section containing site information and navigation -->
+<footer class="foot" role="contentinfo">
+    <div class="foot-left">
+        <img src="./images/logo.png" alt="" class="foot-logo">
+        <a href="mailto:example@mail.com" class="foot-link" aria-label="Email us">example@mail.com</a>
+        <p class="foot-text">+123 456 7890</p>
+        <a href="https://maps.google.com" class="foot-link" aria-label="Find our location on Google Maps">Find us on the map</a>
+    </div>
+    <div class="foot-space"></div>
+    <div class="foot-right">
+        <div class="foot-section">
+            <strong class="foot-heading">Home</strong>
+            <p class="foot-text">About Us</p>
+            <p class="foot-text">Services</p>
+            <p class="foot-text">Contact</p>
+            <p class="foot-text">Blog</p>
+        </div>
+        <div class="foot-section">
+            <strong class="foot-heading">Other</strong>
+            <p class="foot-text">Privacy Policy</p>
+            <p class="foot-text">Terms of Service</p>
+            <p class="foot-text">FAQ</p>
+        </div>
+        <div class="foot-section">
+            <strong class="foot-heading">Social</strong>
+            <div class="foot-buttons">
+                <button class="foot-button" aria-label="Visit our Facebook page">Facebook</button>
+                <button class="foot-button" aria-label="Visit our Twitter page">Twitter</button>
+                <button class="foot-button" aria-label="Visit our Instagram page">Instagram</button>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- copyright information -->
+<div class="foot-copyright">
+    &copy; 2025 Your Company. All rights reserved.
+</div>
+</body>
+
+</html>
